@@ -11,7 +11,7 @@ import SSMaterialKit
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
-            .foregroundColor(Color.colorFromHex(0x0000FF))
+            .foregroundColor(Color.colorFromHex(hex: 0x858585, alpha: 0.5))
             .padding()
     }
 }
